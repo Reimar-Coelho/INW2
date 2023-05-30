@@ -1,0 +1,49 @@
+{
+    "produtos": [
+        {
+            "_id": 1,
+            "nome": "Bateria automotiva",
+            "valor": 400,
+            "qntdDisponivel": 5,
+            "marca": "ACDelco",
+            "descricao": "Uma bateria confiável da renomada marca ACDelco. Por R$ 400.00, oferece potência duradoura e confiável para o seu veículo.",
+            "imagem": "Imagens/bateria.png"
+        },
+        {
+            "_id": 2,
+            "nome": "Pastilha de freio",
+            "valor": 90,
+            "qntdDisponivel": 16,
+            "marca": "Bosch",
+            "descricao": "Pastilhas de freio da marca Bosch, reconhecida por sua qualidade. Por R$ 180.00, proporcionam excelente desempenho de frenagem e durabilidade.",
+            "imagem": "Imagens/pastilha.png"
+        },
+        {
+            "_id": 3,
+            "nome": "Filtro de ar",
+            "valor": 50,
+            "qntdDisponivel": 8,
+            "marca": "Mann-Filter",
+            "descricao": "O filtro de ar da Mann-Filter mantém o ar limpo e é líder em filtragem automotiva. Por R$ 50.00, garante excelente filtragem e prolonga a vida útil do motor.",
+            "imagem": "Imagens/filtro.png"
+        },
+        {
+            "_id": 4,
+            "nome": "Lâmpada de farol",
+            "valor": 60,
+            "qntdDisponivel": 12,
+            "marca": "Philips",
+            "descricao": "Lâmpadas de farol brilhantes da Philips para uma condução segura. Por R$ 60.00/unidade, oferecem iluminação nítida e aumentam a visibilidade na estrada.",
+            "imagem": "Imagens/lampada.png"
+        },
+        {
+            "_id": 5,
+            "nome": "Amortecedor",
+            "valor": 300,
+            "qntdDisponivel": 2,
+            "marca": "Monroe",
+            "descricao": "Amortecedores da Monroe para um passeio suave. Por R$ 300.00/unidade, proporcionam absorção eficiente de impactos, estabilidade e controle ao dirigir.",
+            "imagem": "Imagens/amortecedor.png"
+        }
+    ]
+}

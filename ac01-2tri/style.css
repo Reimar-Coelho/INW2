@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 .logo {
     width: 250px;
 }
@@ -11,4 +15,62 @@ header {
 
 .bg-dark {
     --bs-bg-opacity: 0;
+}
+
+.carrosel {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.carousel {
+    width: 50%;
+    padding: 1.5rem;
+    background-color: black;
+}
+
+.produtos {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    margin: 0;
+    height: 590px;
+} 
+
+main {
+    background-color: black;
+}
+
+.descricao {
+    color: white;
+    font-size: medium;
+    max-width: 300px;
+    text-align: center;
+}
+.valor {
+    color: rgb(172, 172, 172);
+    text-align: center;
+    margin-left: 30px;
+}
+
+main p {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+footer {
+    background-color: wheat;
+}
+
+footer p {
+    margin: 0;
+    text-align: end;
 }
