@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/livros', 
+mongoose.connect('mongodb://127.0.0.1:27017/agenda', 
 {useNewUrlParser : true, useUnifiedTopology: true, serverSelectionTimeoutMS : 10000});
 
 const db = mongoose.connection;
@@ -11,15 +11,15 @@ db.once('open', function(){
     console.log("Estamos logados no mongodb");
 });
 
-const produtosSchema = new mongoose.Schema ({
+const contatosSchema = new mongoose.Schema ({
     nome: String,
     preco: Number,
     tipo: String
 })
 
-const Produto = mongoose.model("Produto", produtosSchema);
+const Contato = mongoose.model("Contato", contatosSchema);
 
-const produto = new Produto ({
+const contato = new Contato ({
     nome: 'Navio do Vasco',
     preco: 2500.00,
     tipo: 'entretenimento'
